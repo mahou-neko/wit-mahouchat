@@ -29,11 +29,14 @@ from wit import Wit
 from bottle import Bottle, request, debug
 
 # Wit.ai parameters
-WIT_TOKEN = os.environ.get('WIT_TOKEN')
+#WIT_TOKEN = os.environ.get('WIT_TOKEN')
+WIT_TOKEN = "2XSKVWFHUEPTPFA6CVUO6UTPVWBN6Y2Y"
 # Messenger API parameters
-FB_PAGE_TOKEN = os.environ.get('FB_PAGE_TOKEN')
+#FB_PAGE_TOKEN = os.environ.get('FB_PAGE_TOKEN')
+FB_PAGE_TOKEN = "EAAEJVEaxRVIBAEXUXkLhzFOqj16XmzcofTJOYeuVzLCAA3YPwjMJKOKKrHZCaR0BraIYqldZAHXpvqj4AHUB27MElZC8YVYcSNrnELCHsfdWcyzvl1Tor5NGjm762XsHZB9uLbz5JluEJjs85SLVi6APWY9A6r9Gt2BnT26t8Krhz34qJ2es2ZBR2z8tSqBQZD"
 # A user secret to verify webhook get request.
-FB_VERIFY_TOKEN = os.environ.get('FB_VERIFY_TOKEN')
+#FB_VERIFY_TOKEN = os.environ.get('FB_VERIFY_TOKEN')
+FB_VERIFY_TOKEN = "totally_valid_validation_token"
 
 # Setup Bottle Server
 debug(True)
