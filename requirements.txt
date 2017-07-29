@@ -1,4 +1,4 @@
 Flask==0.10.1
 future==0.16.0
 bottle==0.12.13
-requests==requests==2.2.1
+requests==2.2.1
